@@ -17,17 +17,15 @@
     <div class="tc">
         <div class="cover bg-center"  style="background-image: url(img/bg4.jpg)">
             <div class="bg-black-80">
-                <div class="fixed pa2">
-                    <a href="">
+                <div class="absolute pa2">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="0 0 640 640" width="70" height="70"><defs><path d="M154.95 278.34L359.14 92.82L375.83 111.19L171.64 296.71L154.95 278.34Z" id="b5U6whXrDE"></path><path d="M262.32 205.23L422.35 370.95L404.49 388.19L244.47 222.47L262.32 205.23Z" id="ePlfdo3An"></path><path d="M422.35 370.86L350.9 496.55L329.32 484.29L400.77 358.6L422.35 370.86Z" id="a3SknqPQUm"></path><path d="M287.93 181.9L447.95 347.62L430.09 364.86L270.07 199.14L287.93 181.9Z" id="c1POSSWqw9"></path></defs><g><g><g><use xlink:href="#b5U6whXrDE" opacity="1" fill="#f5f5f5" fill-opacity="1"></use></g><g><use xlink:href="#ePlfdo3An" opacity="1" fill="#f5f5f5" fill-opacity="1"></use></g><g><use xlink:href="#a3SknqPQUm" opacity="1" fill="#f5f5f5" fill-opacity="1"></use></g><g><use xlink:href="#c1POSSWqw9" opacity="1" fill="#f5f5f5" fill-opacity="1"></use></g></g></g></svg>
-                    </a>
                 </div>
                     <div class="pt5">
                         <img src="img/avatar.jpg" class="br-100 pa2 h5-l w5-l h4 w4" alt="avatar">
                         <h1 class="f1 fw4 white">Jeremy Ricker</h1>
                         <h2 class="f3 light-gray fw2 ttu">Web Developer</h2>
                         <div class="pv4 ph3 ph5-ns tc">
-                        <a class="link near-white dib h2 w2 mr3 ml3" href="https://github.com/mrmrs" title="GitHub">
+                        <a class="link near-white dib h2 w2 mr3 ml3 flex-grow-1" href="https://github.com/mrmrs" title="GitHub">
                             <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.083-.202-.358-1.015.077-2.117 0 0 .672-.215 2.2.82.638-.178 1.323-.266 2.003-.27.68.004 1.364.092 2.003.27 1.527-1.035 2.198-.82 2.198-.82.437 1.102.163 1.915.08 2.117.513.56.823 1.274.823 2.147 0 3.073-1.87 3.75-3.653 3.947.287.246.543.735.543 1.48 0 1.07-.01 1.933-.01 2.195 0 .215.144.463.55.385C13.71 14.53 16 11.534 16 8c0-4.418-3.582-8-8-8"/></svg>
                         </a>
                         <a class="link near-white dib h2 w2 mr3 ml3" href="https://medium.com/@mrmrs_/" title="Medium">
@@ -83,12 +81,28 @@
         </h2>
     </div>
 </section>
-<section class="courier bg-black-90  pb5" id="contact-content">
-        <div class="tc pt3">
-            <h2 class="f3 ttu bb b--black-20 w-25 center pb3 white">
-                Contact
+<footer class="courier bg-black-90 pb5" id="contact-content">
+        <div class="tc pv5 ">
+            <h2 class="f3 bb b--white-20 w-25 center pb3 white">
+                Want to get in touch?
             </h2>
+            <form action="sign-up_submit" method="get" accept-charset="utf-8">
+                    <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
+                      <legend class="ph0 mh0 fw6 clip">Sign Up</legend>
+                      <div class="mt3">
+                        <label class="db fw4 lh-copy f6 white" for="email-address">Email address</label>
+                        <input class="pa2 input-reset ba bg-transparent w-100 measure white" type="email" name="email-address"  id="email-address">
+                      </div>
+                      <div class="mt3">
+                        <label class="db fw4 lh-copy f6 white" for="password">Password</label>
+                        <input class="b pa2 input-reset ba bg-transparent white" type="password" name="password"  id="password">
+                      </div>
+                    </fieldset>
+                    <div class="mt3"><input class="b ph3 pv2 input-reset ba b--white bg-transparent grow pointer f6 white" type="submit" value="Sign Up"></div>
+                  </form>
         </div>
-    </section>
+        <div class ="ml3">
+                <small class="f6 db white-70">© 2019 <b class="ttu">Jeremy Ricker</b>., All Rights Reserved</small>        </div>
+</footer>
 </body>
 </html>
