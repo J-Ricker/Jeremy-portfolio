@@ -47,3 +47,5 @@ var myBarChart = new Chart(ctx, {
         }
     }
 });
+
+
