@@ -16,6 +16,6 @@ copyEmailBtn.addEventListener('click', function(event) {
     }  
 
     // Remove the selections - NOTE: Should use
-    // removeRange(range) when it is supported  
-    // window.getSelection().removeAllRanges();  
+    // removeRange(range) when it is supported .removeAllRanges();   
+    window.getSelection()
 });
