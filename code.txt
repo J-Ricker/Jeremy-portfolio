@@ -122,3 +122,84 @@
             </div>
             </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+            <div class="mw9 center ph1 ph2-ns">
+        <div class="cf w-100 pt4">
+                <div class="fl w-50 w-third-m w-25-ns">
+                <div class="aspect-ratio aspect-ratio--1x1 overflow-hidden container">
+                    <a href="https://j-ricker.github.io/vanilla-todo-list/" target="_blank"    
+                        style="background-image:url(img/todo.png);"
+                        class="hide-child db bg-center cover aspect-ratio--object grow">
+                        <span class="white dtc v-mid child bg-black-40 pa5 center">
+                                Card title
+                        </span>
+                    </a>
+                </div>
+                </div>
+                <div class="fl w-50 w-third-m w-25-ns">
+                <div class="aspect-ratio aspect-ratio--1x1 overflow-hidden">
+                    <a href="https://j-ricker.github.io/robo-friends/" target="_blank">
+                        <img style="background-image:url(img/robo-friends.png);"
+                        class="db bg-center cover aspect-ratio--object grow" />
+                    </a>
+                </div>
+                </div>
+                <div class="fl w-50 w-third-m w-25-ns">
+                <div class="aspect-ratio aspect-ratio--1x1 overflow-hidden">
+                    <a href="https://j-ricker.github.io/Budget-app/" target="_blank">
+                        <img style="background-image:url(img/budget-app.png);"
+                        class="db bg-center cover aspect-ratio--object grow" />
+                    </a>
+                </div>
+                </div>
+                <div class="fl w-50 w-third-m w-25-ns">
+                <div class="aspect-ratio aspect-ratio--1x1 overflow-hidden">
+                    <a href="https://j-ricker.github.io/omnifood/" target="_blank">
+                        <img style="background-image:url(img/omni-food.png);"
+                        class="db bg-center cover aspect-ratio--object grow" />
+                    </a>
+                </div>
+                </div>
+                <div class="fl w-50 w-third-m w-25-ns">
+                <div class="aspect-ratio aspect-ratio--1x1 overflow-hidden">
+                    <a href="https://j-ricker.github.io/vanilla-todo-list/" target="_blank">
+                        <img style="background-image:url(img/todo.png);"
+                        class="db bg-center cover aspect-ratio--object grow" />
+                    </a>
+                </div>
+                </div>
+                <div class="fl w-50 w-third-m w-25-ns">
+                <div class="aspect-ratio aspect-ratio--1x1 overflow-hidden">
+                    <a href="https://j-ricker.github.io/pig-game/" target="_blank">
+                        <img style="background-image:url(img/pig-game.png);"
+                        class="db bg-center cover aspect-ratio--object grow" />
+                    </a>
+                </div>
+                </div>
+                <div class="fl w-50 w-third-m w-25-ns">
+                    <div class="aspect-ratio aspect-ratio--1x1 overflow-hidden">
+                    <a href="https://j-ricker.github.io/memory-game/" target="_blank">
+                        <img style="background-image:url(img/mem-game.png);"
+                        class="db bg-center cover aspect-ratio--object grow" />
+                    </a>
+                </div>
+                </div>
+                <div class="fl w-50 w-third-m w-25-ns">
+                    <div class="aspect-ratio aspect-ratio--1x1 overflow-hidden">
+                    <a href="https://j-ricker.github.io/hex2rgb-color-converter/" target="_blank">
+                        <img style="background-image:url(img/hex-2-rgb.png);"
+                        class="db bg-center cover aspect-ratio--object grow" />
+                    </a>
+                </div>
+                </div>
+        </div>
+    </div>
