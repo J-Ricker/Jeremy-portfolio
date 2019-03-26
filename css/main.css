@@ -27,17 +27,17 @@
 }
 
 #about-content {
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(238, 251, 255);
 }
 
 #portfolio-content {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
 }
 
 .undr-header:after {
     display: block;
     height: 3px;
-    background-color: #709df1;
+    background-color: #424242;
     content: " ";
     width: 50px;
     margin: 0 auto;
