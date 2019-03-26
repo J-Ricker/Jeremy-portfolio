@@ -33,3 +33,12 @@
 #portfolio-content {
     background-color: rgb(231, 231, 231);
 }
+
+#header:after {
+    display: block;
+    height: 5px;
+    background-color: #709df1;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+}
