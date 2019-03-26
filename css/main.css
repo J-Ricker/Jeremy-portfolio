@@ -34,7 +34,7 @@
     background-color: rgb(231, 231, 231);
 }
 
-#header:after {
+.undr-header:after {
     display: block;
     height: 3px;
     background-color: #709df1;
