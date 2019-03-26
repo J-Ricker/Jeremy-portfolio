@@ -36,9 +36,9 @@
 
 #header:after {
     display: block;
-    height: 5px;
+    height: 3px;
     background-color: #709df1;
     content: " ";
-    width: 100px;
+    width: 50px;
     margin: 0 auto;
 }
