@@ -18,3 +18,6 @@ copyEmailBtn.addEventListener('click', function(event) {
     // Remove the selections - NOTE: Should use
     // removeRange(range) when it is supported .removeAllRanges();  
 });
+
+
+AOS.init();
